@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">toHacksContactTracer</string>
+    <string name="settingsButtonString">Settings Button</string>
+    <string name="todayString">Today</string>
+    <string name="hotspotsString">Hot Spots</string>
+    <string name="introString">"Hello, "</string>
+    <string name="userNameText">username</string>
+    <string name="currentLocationText">Current Location</string>
+    <string name="locationText">location</string>
+    <string name="todaysLocationText">Todays Locations</string>
+    <string name="backString">Back</string>
+    <string name="hotspotsTitleString">Hotspots</string>
+</resources>

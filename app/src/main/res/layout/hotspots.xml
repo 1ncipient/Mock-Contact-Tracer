@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/hotspots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="176dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/hotspotsTitleString"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="120dp"/>
+
+    <Button
+        android:id="@+id/backButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="37dp"
+        android:background="#18a0fb"
+        android:gravity="center"
+        android:text="@string/backString"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
